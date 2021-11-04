@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Adicionar nova lição</h1>
+    <form action="" method="post">
+      <div class="input-group">
+        <label for="title">Título</label>
+        <input
+          type="text"
+          id="title"
+          name="title"
+          placeholder="Digite aqui o título da lição"
+        />
+      </div>
+      <div class="input-group">
+        <label for="description">Descrição</label>
+        <textarea
+          name="description"
+          id="description"
+          cols="60"
+          rows="20"
+          placeholder="Adiconar uma descrição para a lição"
+        ></textarea>
+      </div>
+
+      <div class="input-group">
+        <label for="exercises">Exercícios</label>
+        <textarea
+          name="exercises"
+          id="exercises"
+          cols="45"
+          rows="15"
+          placeholder="Adicionar os exercícios da lição"
+        ></textarea>
+      </div>
+      <div class="input-group">
+        <label for="quiz">Quiz</label>
+        <textarea
+          name="quiz"
+          id="quiz"
+          cols="45"
+          rows="15"
+          placeholder="Adicionar o quiz desta lição"
+        ></textarea>
+      </div>
+      <button type="submit">Adicionar</button>
+    </form>
+  </body>
+</html>
